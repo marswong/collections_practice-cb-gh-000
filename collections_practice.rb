@@ -37,3 +37,7 @@ end
 def kesha_maker(arr)
   arr.map { |x| x[2] = "$" }  
 end
+
+def find_a(arr)
+  
+end
