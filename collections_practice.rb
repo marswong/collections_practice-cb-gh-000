@@ -47,5 +47,5 @@ def sum_array(arr)
 end
 
 def add_s(arr)
-  arr.map.with_index { |x, i| i == 1 ? x : "#{x}s" }  
+  arr.collect.each_with_index { |x, i| i == 1 ? x : "#{x}s" }  
 end
