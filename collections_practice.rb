@@ -15,5 +15,5 @@ def sort_array_desc(arr)
 end
 
 def sort_array_char_count(arr)
-  
+  arr.sort
 end
