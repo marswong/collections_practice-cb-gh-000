@@ -10,6 +10,10 @@ def sort_array_desc(arr)
       1
     else
       -1
-    end    
+    end
   end
+end
+
+def sort_array_char_count(arr)
+  
 end
