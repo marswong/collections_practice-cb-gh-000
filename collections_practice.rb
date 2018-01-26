@@ -25,15 +25,15 @@ def sort_array_char_count(arr)
 end
 
 def swap_elements(arr)
-  arr[1] = arr[1] ^ arr[2]
-  arr[2] = arr[1] ^ arr[2]
-  arr[1] = arr[1] ^ arr[2]
+  arr[1] = "#{arr[1]}:)#{arr[2]}"
+  arr[2] = arr[1].split(":)")[0]
+  arr[1] = arr[1].split(":)")[1]
 end
 
 def swap_elements_from_to(arr, from, to)
-  arr[from] = arr[from] ^ arr[to]
-  arr[to] = arr[from] ^ arr[to]
-  arr[from] = arr[from] ^ arr[to]
+  arr[from] = "#{arr[from]}:)#{arr[to]}"
+  arr[to] = arr[from].split(":)")[0]
+  arr[from] = arr[from].split(":)")[1]
 end
 
 def reverse_array(arr)
