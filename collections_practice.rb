@@ -43,7 +43,7 @@ def reverse_array(arr)
 end
 
 def kesha_maker(arr)
-  arr.map { |x| x[2] = "$" }
+  arr.map { |x| (x[2] = "$") && x }
 end
 
 def find_a(arr)
