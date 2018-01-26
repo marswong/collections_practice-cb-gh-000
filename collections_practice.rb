@@ -15,7 +15,13 @@ def sort_array_desc(arr)
 end
 
 def sort_array_char_count(arr)
-  arr.sort
+  arr.sort do |a, b|
+    if a.downcase < b.downcase
+      -1
+    else
+      1
+    end
+  end
 end
 
 def swap_elements(arr)
