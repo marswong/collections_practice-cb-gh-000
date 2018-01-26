@@ -31,5 +31,9 @@ def swap_elements_from_to(arr, from, to)
 end
 
 def reverse_array(arr)
-  arr.reverse  
+  arr.reverse
+end
+
+def kesha_maker(arr)
+  arr.map { |x| x[2] = "$" }  
 end
